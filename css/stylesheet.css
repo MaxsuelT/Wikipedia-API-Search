@@ -1,0 +1,42 @@
+body{
+    background-image: url("../imgs/background.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vh;
+    margin: 0 auto;
+    
+}
+
+.main {
+    display: block;
+    box-sizing: border-box;
+}
+
+form {
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    padding: 0.5em;
+    /* border: 2px solid pink; */
+    
+}
+#input {
+    width: 500px;
+    /* margin-left: 0.5em; */
+    margin-top: 3em;
+}
+img{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-30%, -40%);
+    margin: .5em;
+    
+    
+}
